@@ -7,3 +7,6 @@ if (userchoice) {
     alert("You cheated!");
 
 }
+const computerchoices = Math.floor(Math.random() * 3);
+const computerchoice = choices[computerchoices];
+alert(`computer choice is :${computerchoice}`);
